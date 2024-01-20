@@ -1,0 +1,105 @@
+
+.encabezado {
+    background-color: #cccccc ;
+    
+}
+.union{
+    width: 940px;
+    margin: 0 auto;
+}
+.logo{ 
+    width: 125px;
+    
+}
+.rutas{
+    position: absolute;
+    top: 80px;
+    right: 110px;
+    
+}
+.rutas li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+.rutas a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.rutas a:hover{
+    color: black;
+    font-size: 23px;
+    
+}
+.rutas a:active {
+    color: white;
+    font-size: 19px;
+
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.productos li:hover{
+    border: 3px solid black;
+    
+
+}
+.productos li:active{
+    border-color: #cccccc;
+    color: #cccccc;
+    transform: scale(0.9);
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.productos li:hover h2{
+    font-size: 33px;
+}
+.imagen{
+    width: 125px;
+    height: 150px;
+}
+.descripcion{
+    font-size: 18px;
+
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.pieDePagina{
+    padding: 20px;
+    background: url(imagenes/bg.jpg);
+    text-align: center;
+}
+.logoBlanco{
+    width: 125px;
+}
+.copyrigth{
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+    
+}

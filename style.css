@@ -165,6 +165,7 @@ td,th{
 .titulo{
     text-align: center;
     font-size: 2em;
+    font-weight: bold;
     margin: 0 0 1em ;
     clear: left;
 }
@@ -181,7 +182,7 @@ td,th{
 }
 .principal strong{
     font-style: italic;
-    color: gray;
+    font-weight: bold;
 }
 .principal em{
     font-style: italic;
@@ -216,6 +217,7 @@ td,th{
 }
 .items:first-child{
     font-style: oblique;
+    font-weight: bold;
 }
 .items{
     line-height: 1.5;
